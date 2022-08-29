@@ -1,0 +1,17 @@
+{
+  "name": "mundoprogra/page-structure-php",
+  "description": "Permite construir una estructura para fácil administración de sitios web.",
+  "version": "dev-master",
+  "authors": [
+    {
+      "name": "Alvar0RM",
+      "email": "roma_971207@hotmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "MundoProgra\\PageStructurePhp\\": "src/"
+    }
+  }
+}
