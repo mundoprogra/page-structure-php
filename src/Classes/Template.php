@@ -143,11 +143,13 @@
     }
 
     /**
-     * Verifica en que url nos encontramos para poder regresar la cadena "current" que nos permite a traves
+     * Verifica en que url nos encontramos para poder regresar la cadena "active" que nos permite a traves
      * de una clase CSS activar el enalce activo en el menu de navegación.
      *
-     * @param $url string Url que el que se quiere verificar para el correcto funcionamiento en el sitio.
-     * @return string     Regresa la url la clase según la evalución que hace respecto a la URL.
+     * @param string $url          Url que el que se quiere verificar para el correcto funcionamiento en el sitio.
+     * @param string $customeClass Clase personalizada en caso de requierir una diferente a "active".
+     *
+     * @return string              Regresa la clase según la evaluación que hace respecto a la URL.
      */
     protected function currenctURL(string $url, string $customeClass = "active") : string {
       $lengthURL = strlen($url);
