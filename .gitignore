@@ -1,5 +1,8 @@
+# IntelliJ project files
+.idea/
 vendor/
-coverage/
+node_modules/
 
-.phpunit.result.cache
-composer.lock
+*.iml
+out
+gen
