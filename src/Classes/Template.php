@@ -20,6 +20,8 @@
     abstract public function getHeader() : string;
     abstract public function getFooter() : string;
 
+
+
     /**
      * @return string
      */
@@ -63,7 +65,9 @@
     }
 
     /**
-     * Función que carga el favicon
+     * Función que regresa la estructura del favicon para el sitio web
+     *
+     * @return string Cadena del Favicon armada con la URL del sitio web.
      */
     public function getFavicon() : string {
       return '
