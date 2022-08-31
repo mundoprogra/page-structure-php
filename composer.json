@@ -1,7 +1,7 @@
 {
   "name": "mundoprogra/page-structure-php",
   "description": "Permite construir una estructura para fácil administración de sitios web.",
-  "version": "dev-master",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Alvar0RM",
