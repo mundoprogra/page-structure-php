@@ -10,6 +10,7 @@
     protected $IMAGES_URL = "";
     protected $CSS_URL = "";
     protected $JS_URL = "";
+    protected $VIDEOS_URL = "";
 
     protected $lang = "en-US";
 
@@ -55,6 +56,13 @@
      */
     public function getJSURL() : string {
       return $this->JS_URL;
+    }
+
+    /**
+     * @return string
+     */
+    public function getVIDEOSURL() : string {
+      return $this->VIDEOS_URL;
     }
 
     /**
